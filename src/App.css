@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+} 
+:root{
+  --pcolor:#fd3035;
+  --gcolor:#d9d9d9;
+  --bcolor:#1e1e27;
+  --white:#eeeeee;
+  --links:#ada6bb;
+}    
+
+.top-bar {
+  background-color: var(--bcolor);
+  color: var(--gcolor);
+  height: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.top-bar a {
+  text-decoration: none;
+  color: var(--links);
+  margin: 0 15px;
+}
+
+.top-bar icons i {
+  font-size: 15px;
+  color: var(--bcolor);
+}
+
+.divider {
+  position: relative;
+  margin-right: 140px;
+}
+
+.divider::after {
+  height: 20px;
+  width: 150px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--pcolor);
+}
+
+.hero {
+  background: url('../public/images/hero.webp');
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  height: 100vh;
+}
+
+.icons {
+  transform: scale(1.5);
+  color: var(--bcolor);
+}
+
+.icon-shop {
+  font-size: 20px;
+  position: relative;
+  background: var(--gcolor);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#counter {
+  height: 15px;
+  width: 15px;
+  background: var(--pcolor);
+  color: #fff;
+  font-size: 10px;
+  padding: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  top: -4px;
+  right: -4px;
+}

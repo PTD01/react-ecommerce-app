@@ -1,0 +1,99 @@
+
+*{
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:30px;
+}
+.top-bar{
+background-color: var(--bcolor);
+color: var(--gcolor);
+height: 3rem;
+display: flex;
+justify-content: space-around;
+
+}
+.top-bar a{
+    text-decoration: none;
+    margin-right:10px ;
+    color: var(--bcolor);
+    
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 5rem;
+    align-items: center;
+    background-color: var(--white);
+    
+}
+
+main{
+background-color:black ;
+background-image: url('../../public/images/hero.webp');
+width: 100%;
+height: 50vh;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+span{
+    color:black;
+}
+
+svg{
+   width:30px; 
+}
+nav a{
+    text-decoration: none;
+    margin-right:10px ;
+    color:black;
+}
+.footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+hr{
+    width:50px;
+    align-items:center;
+    
+}
+.products{
+    display:flex;
+}
+.category{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.category a{
+    text-decoration:none;
+    margin-right:20px;
+    border:1px solid;
+    width:100px;
+    border-radius:3px;
+    margin-bottom:20px
+
+}
+.featured{
+    display:flex;
+}
+.research{
+    margin-right:50%;
+    margin-left:40%;
+}
+.shop{
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+.cart{
+background-color:black;
+}
+
